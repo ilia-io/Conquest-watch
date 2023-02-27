@@ -25,7 +25,7 @@ npm run build-dev
 ### Сборка проекта с оптимизацией
 
 ```shell
-npm run build-prod
+npm run prod
 ```
 
 ### Очистка папки dist
