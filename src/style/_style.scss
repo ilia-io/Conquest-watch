@@ -409,3 +409,67 @@ body {
     color: rgba(27, 26, 23, 0.82);
   }
 }
+
+.contacts {
+  min-height: 631px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__wrapper {
+    min-height: 460px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__info-box {
+    width: 471px;
+    height: 258px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: #1B1A17;
+  }
+
+  &__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #444240;
+  }
+
+  &__socials {
+    width: 93px;
+    height: 22.78px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__icon {}
+
+  &__photo-box {
+    width: 629px;
+    height: 460px;
+    display: flex;
+  }
+
+  &__photo-wrp {}
+
+  &__photo {
+    &:nth-child(1) {
+      margin-bottom: 7px;
+    }
+  }
+}
