@@ -214,3 +214,115 @@ body {
 
   &__icon {}
 }
+
+.popular {
+  min-height: 720px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: #1B1A17;
+
+    text-align: center;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    color: #444240;
+    width: 104px;
+    background: transparent;
+    border: none;
+    border-bottom: 1.5px solid #C4C0B6;
+    cursor: pointer;
+  }
+
+  &__watch-box {
+    max-width: 1170px;
+    min-height: 467px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__watch-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 370px;
+    height: 467px;
+    background-color: #FDFDFB;
+  }
+
+  &__watch-title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(27, 26, 23, 0.82);
+  }
+
+  &__watch-price {
+    width: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  &__watch-price-numbers {
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(27, 26, 23, 0.82);
+  }
+
+  &__watch-price-ruble {}
+
+  &__watch-img {}
+
+  &__watch-bottom-text-box {
+    width: 140px;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__watch-h-line {
+    width: 30px;
+    height: 0px;
+    border-top: 1px solid #8B8371;
+  }
+
+  &__watch-bottom-text {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1B1A17;
+  }
+}
