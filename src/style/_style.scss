@@ -64,6 +64,8 @@ body {
   }
 
   &__icon-btn {
+    cursor: pointer;
+
     &:nth-child(1) {
       transform: translateY(1px);
     }
@@ -384,6 +386,7 @@ body {
     height: 64px;
     background: #D4B098;
     border: none;
+    cursor: pointer;
   }
 
   &__pagination {
@@ -455,7 +458,10 @@ body {
     height: 22.78px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
+
+  &__icon-link {}
 
   &__icon {}
 
@@ -471,5 +477,96 @@ body {
     &:nth-child(1) {
       margin-bottom: 7px;
     }
+  }
+}
+
+.footer {
+  background-color: #444240;
+  min-height: 275px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__wrapper {
+    max-width: 1001px;
+    min-height: 141px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo-box {
+    width: 163px;
+    height: 92px;
+  }
+
+  &__logo {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 23px;
+  }
+
+  &__logo-icon {}
+
+  &__logo-title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.14em;
+    color: #FFFFFF;
+  }
+
+  &__logo-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.75);
+
+    &:nth-child(2) {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__nav {
+    height: 129px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__nav-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 33px;
+  }
+
+  &__nav-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: space-between;
+    height: 85px;
+  }
+
+  &__nav-item {}
+
+  &__nav-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
   }
 }
