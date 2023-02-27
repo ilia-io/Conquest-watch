@@ -1,6 +1,216 @@
-body {
-  font-family: 'Montserrat';
-  background-color: $back;
-  color: $text;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+body {
+  font-family: 'Roboto', 'Playfair Display', 'Prata' sans-serif;
+  background-color: #aaa;
+  color: #000;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.container {
+  width: 1171px;
+  margin: 0 auto;
+}
+
+.header {
+  min-height: 74px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  background-color: #FDFDFB;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo-box {
+    display: flex;
+    align-items: center;
+    width: 103.68px;
+    height: 26px;
+  }
+
+  &__logo-icon {}
+
+  &__logo-title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.14em;
+    color: #555248;
+  }
+
+  &__icon-buttons {
+    width: 99px;
+    height: 21px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__icon-btn {
+    &:nth-child(1) {
+      transform: translateY(1px);
+    }
+
+    &:nth-child(2) {
+      transform: scale(1.2) translateY(-2px) translateX(2px);
+    }
+  }
+}
+
+.nav {
+  width: 422px;
+  height: 13px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+
+  &__item {}
+
+  &__link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #555248;
+    text-decoration: none;
+  }
+}
+
+.main {
+
+  &__wrapper {}
+}
+
+
+.welcome {
+  min-height: 768px;
+  background: url(/src/img/welcome-bg.png) 50% 0 no-repeat, #FDFDFB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    // padding-left: 50px;
+    position: relative;
+  }
+
+  &__info-box {
+    width: 347px;
+    min-height: 296px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  &__h-line {
+    width: 50px;
+    height: 0px;
+    border-top: 1px solid #8B8371;
+
+    &_title {
+      position: absolute;
+      top: 35px;
+      left: -67px;
+    }
+  }
+
+  &__title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 60px;
+    color: #1B1A17;
+  }
+
+  &__subtitle {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #1B1A17;
+  }
+
+  &__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(27, 26, 23, 0.82);
+  }
+
+  &__btn {
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 205px;
+    height: 64px;
+    background: #444240;
+    border: none;
+  }
+}
+
+.note {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &_left-top {
+    width: 140px;
+    height: 16px;
+    position: absolute;
+    left: 480px;
+    top: -80px;
+  }
+
+  &_right-bot {
+    width: 187px;
+    height: 16px;
+    position: absolute;
+    left: 966px;
+    top: 410px;
+  }
+
+  &__text {
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1B1A17;
+  }
+
+  &__icon {}
 }

@@ -1,18 +1,93 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <!-- <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="img/favicon.png" type="image/png"> -->
-
-  <title>Conquest</title>
-</head>
-<body>
-
-
-  
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Prata&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Conquest</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__wrapper container">
+        <div class="header__logo-box">
+          <img
+            src="/src/img/logo.svg"
+            alt="eclipse"
+            class="header__logo-icon"
+          />
+          <h2 class="header__logo-title">CONQUEST</h2>
+        </div>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-list__item">
+              <a href="#" class="nav-list__link">Каталог</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#" class="nav-list__link">Акции</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#" class="nav-list__link">Доставка</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#" class="nav-list__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__icon-buttons">
+          <img
+            src="/src/img/h-icon-1.svg"
+            alt="search"
+            class="header__icon-btn"
+          />
+          <img
+            src="/src/img/h-icon-2.svg"
+            alt="favourites"
+            class="header__icon-btn"
+          />
+          <img
+            src="/src/img/h-icon-3.svg"
+            alt="cart"
+            class="header__icon-btn"
+          />
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main__wrapper">
+        <section class="welcome">
+          <div class="welcome__wrapper container">
+            <div class="welcome__info-box">
+              <div class="welcome__h-line welcome__h-line_title"></div>
+              <h1 class="welcome__title">Весна/Лето 2019</h1>
+              <h2 class="welcome__subtitle">Коллекция</h2>
+              <p class="welcome__text">
+                Швейцарские часы в наличии в Москве и с доставкой по всему миру
+              </p>
+              <button class="welcome__btn" type="button">
+                Смотреть каталог
+              </button>
+            </div>
+            <aside class="note note_left-top">
+              <p class="note__text">22 000</p>
+              <img src="/src/img/ruble.svg" alt="ruble" class="note__icon" />
+              <div class="welcome__h-line"></div>
+            </aside>
+            <aside class="note note_right-bot">
+              <div class="welcome__h-line"></div>
+              <p class="note__text">28 мм диаметр</p>
+            </aside>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
 </html>
