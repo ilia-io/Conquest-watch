@@ -8,8 +8,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
-
 body {
   font-family: 'Roboto', 'Playfair Display', 'Prata' sans-serif;
   background-color: #aaa;
@@ -43,8 +41,6 @@ body {
     width: 103.68px;
     height: 26px;
   }
-
-  &__logo-icon {}
 
   &__logo-title {
     font-family: 'Playfair Display';
@@ -89,8 +85,6 @@ body {
   list-style: none;
   margin: 0 auto;
 
-  &__item {}
-
   &__link {
     font-family: 'Roboto';
     font-style: normal;
@@ -102,12 +96,6 @@ body {
   }
 }
 
-.main {
-
-  &__wrapper {}
-}
-
-
 .welcome {
   min-height: 768px;
   background: url(/src/img/welcome-bg.png) 50% 0 no-repeat, #FDFDFB;
@@ -118,7 +106,6 @@ body {
   &__wrapper {
     display: flex;
     flex-direction: column;
-    // padding-left: 50px;
     position: relative;
   }
 
@@ -196,8 +183,6 @@ body {
     width: 140px;
     height: 16px;
     position: absolute;
-    left: 480px;
-    top: -80px;
     left: 41%;
     top: -27%;
   }
@@ -206,8 +191,6 @@ body {
     width: 187px;
     height: 16px;
     position: absolute;
-    left: 966px;
-    top: 410px;
     left: 82.5%;
     top: 138.7%;
 
@@ -222,8 +205,6 @@ body {
     line-height: 22px;
     color: #1B1A17;
   }
-
-  &__icon {}
 }
 
 .popular {
@@ -311,10 +292,6 @@ body {
     color: rgba(27, 26, 23, 0.82);
   }
 
-  &__watch-price-ruble {}
-
-  &__watch-img {}
-
   &__watch-bottom-text-box {
     width: 140px;
     height: 16px;
@@ -353,10 +330,6 @@ body {
     position: relative;
     flex-wrap: wrap;
   }
-
-  &__image-box {}
-
-  &__img {}
 
   &__info-box {
     width: 377px;
@@ -406,8 +379,8 @@ body {
     display: flex;
     justify-content: space-between;
     position: absolute;
-    bottom: -30px;
-    left: 475px;
+    left: 40.5%;
+    bottom: -7%;
   }
 
   &__pagination-arrow {
@@ -472,10 +445,6 @@ body {
     align-items: center;
   }
 
-  &__icon-link {}
-
-  &__icon {}
-
   &__photo-box {
     width: 629px;
     height: 456px;
@@ -493,8 +462,6 @@ body {
     width: 242px;
     height: 222px;
   }
-
-  &__photo {}
 }
 
 .footer {
@@ -523,8 +490,6 @@ body {
     align-items: flex-end;
     margin-bottom: 23px;
   }
-
-  &__logo-icon {}
 
   &__logo-title {
     font-family: 'Playfair Display';
@@ -575,8 +540,6 @@ body {
     min-height: 85px;
   }
 
-  &__nav-item {}
-
   &__nav-link {
     font-family: 'Roboto';
     font-style: normal;
@@ -602,8 +565,6 @@ body {
     }
   }
 
-
-
   .popular {
     padding: 40px 0;
 
@@ -619,9 +580,16 @@ body {
   }
 
   .banner {
+    &__pagination {
+      left: 44.5%;
+      bottom: -5%;
+    }
+
     padding: 40px 0;
 
-    &__wrapper {}
+    &__wrapper {
+      margin-bottom: 20px;
+    }
 
     &__image-box {
       order: 2;
@@ -657,8 +625,6 @@ body {
     &__photo-wrp+* {
       width: calc(377px - 34%);
     }
-
-    &__photo {}
   }
 }
 
@@ -695,8 +661,6 @@ body {
     &__info-box {
       margin: 0 auto 40px;
     }
-
-    &__image-box {}
 
     &__img {
       width: 470px;
@@ -803,14 +767,6 @@ body {
 
   .banner {
     &__pagination {
-      width: 63px;
-      height: 12px;
-      display: flex;
-      justify-content: space-between;
-      position: absolute;
-      bottom: -30px;
-      left: 475px;
-
       position: static;
       order: 3;
       width: 80px;
@@ -821,8 +777,6 @@ body {
       margin: 0 auto 40px;
       align-items: center;
     }
-
-    &__image-box {}
 
     &__img {
       width: 300px;
